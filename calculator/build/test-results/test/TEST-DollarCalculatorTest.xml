@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DollarCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-31T14:56:01" hostname="DESKTOP-6M4DV82" time="0.017">
+<testsuite name="DollarCalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-01T14:28:20" hostname="DESKTOP-6M4DV82" time="0.346">
   <properties/>
-  <testcase name="testHello()" classname="DollarCalculatorTest" time="0.017"/>
+  <testcase name="testHello()" classname="DollarCalculatorTest" time="0.342"/>
+  <testcase name="mockTest()" classname="DollarCalculatorTest" time="0.003"/>
   <system-out><![CDATA[Hello
 22000
+Hello
+60000
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
