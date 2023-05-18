@@ -1,0 +1,10 @@
+-- call next value for USER_SEQ;
+insert into user (`name`,`email`,`created_at`,`updated_at`) values ('martin','martin@fastcampus.com',now(),now());
+-- call next value for USER_SEQ;
+insert into user (`name`,`email`,`created_at`,`updated_at`) values ('dennis','dennis@fastcampus.com',now(),now());
+-- call next value for USER_SEQ;
+insert into user (`name`,`email`,`created_at`,`updated_at`) values ('John','jhon@fastcampus.com',now(),now());
+-- call next value for USER_SEQ;
+insert into user (`name`,`email`,`created_at`,`updated_at`) values ('AAA','AAA@aaa.com',now(),now());
+-- call next value for USER_SEQ;
+insert into user (`name`,`email`,`created_at`,`updated_at`) values ('martin','martin@another.com',now(),now());

@@ -26,14 +26,10 @@ public class CalculatorApiController {
 
 
 
-    @PostMapping ("/sum")
-    public Res sum(@RequestBody Req req){
-        int result = calculator.sum(req.getX(), req.getY());
-
-        Res res = new Res();
-        res.setResult(result);
-
-        return res;
+    @GetMapping ("/sum")
+    public int sum(@RequestParam int x , @RequestParam int y){
+        int result = calculator.sum(x, y);
+        return result;
     }
 
 
